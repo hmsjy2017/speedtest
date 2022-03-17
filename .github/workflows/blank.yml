@@ -26,5 +26,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -fsSL git.io/speedtest-cli.sh | sudo bash
+          speedtest --accept-license
           speedtest
           speedtest -L
