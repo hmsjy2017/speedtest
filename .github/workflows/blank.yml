@@ -28,5 +28,5 @@ jobs:
           curl -fsSL git.io/speedtest-cli.sh | sudo bash
           speedtest --accept-license
           speedtest -L
-          sudo bash <(curl -fsSL git.io/warp.sh) wgd
+          curl -fsSL git.io/warp.sh | bash wgd
           speedtest
