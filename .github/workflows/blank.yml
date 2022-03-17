@@ -29,5 +29,5 @@ jobs:
           speedtest --accept-license
           speedtest -L
           wget git.io/warp.sh
-          sudo bash warp.sh wgd
+          sudo bash warp.sh wg4
           speedtest
